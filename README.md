@@ -5,6 +5,6 @@ Since the main focus was in php for creatig login system that's why the to-do ap
 
 # What I Learned
 
-Developed a user interface with HTML/CSS.
-Learned how SESSIONS AND SESSIONS VARIABLES works. 
+Developed a user interface with HTML/CSS.\n
+Learned how SESSIONS AND SESSIONS VARIABLES works.\n 
 Also learned new built in functions/methods in php like -> mysqli_real_escape_string(), preg_match(), filter_var()
