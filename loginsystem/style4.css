@@ -1,0 +1,237 @@
+body{
+  background-color: #ccc;
+  margin: 0px;
+}
+a{
+  text-decoration: none;
+}
+.main-wrapper{
+  margin: 0 auto;
+  width: 1000px;
+  background: yellow;
+}
+.task-wrapper{
+  width: 70%;
+  height: auto;
+  margin: 0 auto; /*TO bring the content in center*/
+}
+header nav{
+  width: 100%;
+  height: 60px;
+  background-color: #fff;
+}
+header nav ul{
+  float: left;
+}
+header nav ul li{
+  float: left;
+  list-style: none;
+}
+
+header nav ul li a{
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 33px;
+}
+header .nav-login{
+  float: right;
+}
+
+header .nav-login form{
+  float: left;
+  padding-top: 15px;
+
+}
+header .nav-login form input{
+  float: left;
+  width: 140px;
+  height: 30px;
+  padding: 0px 10px;
+  margin-right: 10px;
+  /*border: none;*/
+  background-color: #ccc;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+}
+
+header .nav-login form button{
+  float: left;
+  width: 60px;
+  height: 30px;
+  margin-right: 10px;
+  border: none;
+  background-color: #f3f3f3;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  cursor: pointer;
+}
+header .nav-login form button:hover{
+  background-color: #ccc;
+}
+
+header .nav-login a{
+  display: block;
+  width: 60px;
+  height: 60px;
+  border: none;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 16px;
+  color: #111;
+  line-height: 63px;
+  cursor: pointer;
+  float: left;
+}
+
+.main-container{
+  padding: 10px;
+}
+
+.main-container .main-wrapper h2{
+  font-size: 35px;
+  text-align: center;
+}
+/*signup.php*/
+.signup-form{
+  width: 400px;
+  margin: 0 auto;
+  padding-top: 30px;
+}
+
+.signup-form input{
+  width: 90%;
+  height: 40px;
+  padding: 0px 5%;
+  border: none;
+  background-color: #fff;
+  font-family: arial;
+  font-size: 18px;
+  margin-bottom: 4px;
+  color: #111;
+}
+
+.signup-form button{
+  display: block;
+  width: 30%;
+  margin: 0 auto;
+  height: 40px;
+  border: none;
+  background-color: #222;
+  font-family: arial;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.signup-form button:hover{
+  background-color: #111;
+}
+
+.add_t{
+  margin-top: 2%;
+  width: 98%;
+  height: auto;
+  background: #d6d6c2;
+  padding: 1%;
+  box-shadow: 0px 5px 7px black;
+  border-radius: 15px;
+  float: right;
+}
+
+.add_t form textarea{
+  background: white;
+  border: 1px solid black;
+  box-shadow: 0px 1px 2px black;
+  border-radius: 15px;
+  padding: 6px;
+  font-size: 14px;
+  width: 98%;
+}
+
+.add_t form button{
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 0px 10px 0px 10px;
+  background: #a3a375;
+  margin-bottom: 3px;
+  font-size: 20px;
+}
+
+
+.add_t button{
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 0px 10px 0px 10px;
+  background: #a3a375;
+  margin-bottom: 3px;
+  font-size: 20px;
+
+}
+
+.load_task{
+  color: white;
+  margin: 10px 5%;
+  background: grey;
+  width: 40%;
+  height: 120px;
+  float: left;
+  text-align: right;
+  border-radius: 5px;
+}
+
+.load_task h3{
+  text-align: center;
+}
+
+.load_task i{
+  font-size:28px;
+  color:#ff4d4d;
+  text-shadow: 3px 3px 3px black;
+  margin-right: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.load_task h4{
+  display: none;
+}
+
+#load_more_task{
+  width: 100%;
+  height: 40px;
+  padding: 0px 10px;
+  border-radius: 0px 10px 0px 10px;
+  background: #a3a375;
+  margin-bottom: 5%;
+  font-size: 25px;
+}
+
+.load_task_div{
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 98%;
+  height: auto;
+  background: #d6d6c2;
+  padding: 1%;
+  box-shadow: 0px 5px 7px black;
+  border-radius: 15px;
+  float: left;
+}
+.load_task_div h1{
+  font-family:monospace;
+  font-size: 30px;
+}
+
+.load_new_task{
+  margin-left: 1%;
+  width: 98%;
+  height: auto;
+  background: #d6d6c2;
+  padding: 1%;
+  float: left;
+}
